@@ -14,6 +14,6 @@ Example of:
 
 - Loop 'For' statements
 
-- RPi knowledgde
+- RPi knowledge
 
-- Basic circuitry knowlegde
+- Basic circuitry knowledge
