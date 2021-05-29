@@ -12,7 +12,7 @@ Example of:
 
 - Use of libraries
 
-- Loop 'For' statement
+- Loop 'For' statements
 
 - RPi knowledge
 
