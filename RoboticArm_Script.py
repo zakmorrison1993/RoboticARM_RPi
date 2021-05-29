@@ -72,11 +72,11 @@ While True:
 #end code
 finally:
 
-              p.stop(0) # stop pulse width modulation
+  p.stop(0) # stop pulse width modulation
 
-             curses.nobreak(); 
-             screen.keypad(0); 
-             curses.echo()
-             curses.endwin()
+  curses.nobreak(); 
+  screen.keypad(0); 
+  curses.echo()
+  curses.endwin()
  
-            GPIO.cleanup()
+  GPIO.cleanup()
