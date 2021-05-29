@@ -1,4 +1,4 @@
-# RoboticARM_RPi-Pyhton
+# RoboticARM_RPi-Python
 
 This project uses a Raspberry Pi 3 Model B+	(2.5A)
 
