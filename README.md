@@ -44,6 +44,11 @@ Critism of Appendix A:
 - Rushed project
 
 
+As you can see the Arm has four Servo units controlling joints/wrist and hand. there is an H bridge that feeds a DC 3V motor that allows the Arm to move 360 degrees. This also has LM2596 which reduces the voltage for the motor. This is my first proper schematic and realise later a Voltage Divider may have been more efficient.
+
+This all goes to an RPi 3B however, as mentioned before, the Amps are too high for that and according to documentation fits an RPi 4 better. However, it is possible to reduce the amp for different RPi devices. The diode connecting it to power is to reduce voltage to 5V for the RPi
+
+
 
 APPEDNIX B: Second Hand Build - To be Completed :
 
