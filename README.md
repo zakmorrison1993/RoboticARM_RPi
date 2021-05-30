@@ -48,6 +48,8 @@ As you can see the Arm has four Servo units controlling joints/wrist and hand. t
 
 This all goes to an RPi 3B however, as mentioned before, the Amps are too high for that and according to documentation fits an RPi 4 better. However, it is possible to reduce the amp for different RPi devices. The diode connecting it to power is to reduce voltage to 5V for the RPi
 
+Also, transistors in the H bridge are hooked to the RPI in a way that doesn't make sense. the opposing transistors to the direction of current are active, and this shouldn't be happening. For example, GPIO will have to be high for both outputs, Q1/Q3 and Q2/Q4 when is should be Q1/Q4 or Q2/Q3.
+
 
 
 APPEDNIX B: Second Hand Build - To be Completed :
